@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-type ChopSti struct{ sync.Mutex }
+type ChopSti struct { sync.Mutex }
 
 type Phil struct {
 	leftCS, rightCS *ChopSti
